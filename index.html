@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src = "js/script.js"></script>
+	<link rel="icon" type="image/png" href="icons/main-icon.png">
+</head>
+<body onload="addTabIndex()">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	<figure>
+		<img class = "preview" alt = "Four orange kittens" src="images/cats/cat1.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+		
+		<img class = "preview" alt = "Brown fluffy cat" src="images/cats/cat2.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+		
+		<img class = "preview" src="images/cats/cat3.jpg" alt = "Tiny white kitten with blue eyes" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+		<img class = "preview" alt = "Gray cat with black stripes standing on a wood" src="images/cats/cat4.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+		
+		<img class = "preview" alt = "White kitten with gray and black stripes licking its nose" src="images/cats/cat5.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+		
+		<img class = "preview" src="images/cats/cat6.jpg" alt = "Happy kitten laying on a bed" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	</figure>
+</body>
+</html>
